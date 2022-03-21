@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Vacunación</title>
+</head>
+<body>
+    <div class="navegador">          
+
+                <h3 >Vacunación</h3>
+                <li class="nav_info">Basededatos</li>
+                <li class="nav_info">Educación</li>
+                <li class="nav_info">Noticias</li>
+                <li class="nav_info">Regulación</li>
+                <li class="nav_info">CazadordeFraudes</li>
+
+    </div>   
+    <div class="citas">
+
+        <div class="cita_texto">
+            <h1>Combate el virus con vacunas</h1>
+            <p>Detengamos esta pandemia eliminando el virus con una vacuna,
+            no dejes que tu o tu familia se infecte.
+            </p>
+            <p><img src="img/shield.png" alt="" style="width:20px">Mejor Protección <img src="img/star.png" alt="" style="width: 20px;" >Vacunas Seleccionadas</p> 
+            <h4>Agenda tu vacunación</h4>
+            <div class="agendar">
+                <form action="" class="agenda">
+                    <div class="contenedor_agenda">
+                    <label for="local">Localizacion:</label>
+                    <select id="localization" name="listaentidad" form="listaentidades">
+                    <option value="EdoMex">Estado de Mexico</option>
+                    <option value="AguasC">Aguas Calientes</option>
+                    <option value="CDMX">Ciudad de México</option>
+                    <option value="Pue">Puebla</option>
+                    </select>
+                    </div>
+                    <div class="contenedor_agenda">
+                    <label for="fecha">Fecha:</label>
+                    <input type="date" name="fechacita" id="fechacita">
+                    </div>
+                    <div class="contenedor_agenda">
+                    <label for="vacuna">Vacuna:</label>
+                    <select id="marcavacuna" name="marcavacuna" form="marcavacunas">
+                    <option value="Sinova">Sinovac</option>
+                    <option value="Astrazeneca">AstraZeneca</option>
+                    <option value="Moderna">Moderna</option>
+                    <option value="Pfizer">Pfizer</option>
+                    </select>
+                    </div>
+                    <div class="contenedor_agenda">
+                    <button class="aceptar" type="submit">Aceptar</button>
+                    </div>
+                </form>
+                </div>
+        </div>                
+        
+        <div class="cita_imagen">
+        <img  src="img/enfermera1.png" alt="enfermeraconjeringa">
+        </div>
+
+    </div>
+
+    <div class="marcavacunas">
+        <img src="img/astrazeneca.png" alt="AstraZeneca">
+        <img src="img/sinovac.png" alt="Sinovac">
+        <img src="img/pfizer.png" alt="Pfizer">
+        <img src="img/moderna.png" alt="Moderna">
+    </div>
+    <div class="porquevacunar">
+    <aside class="vacunatexto">
+        <h2>¿Por que me debo vacunar</h2>
+        <p>Para evitar cualquier dura acerca de vacunarse contra COVID-19, se identifican los siguientes
+            beneficios de la vacunacion contra COVID-19:
+        </p>
+    </aside>
+    <aside class="margenvacunajustifica">
+    </aside>
+    </div>
+    <div class="cartasvacunacion">
+        <div class="card">
+            <div class="containera">
+                <div class="img_razon">
+                    <i class="fa fa-user-md" style="font-size:24px; color:blue"></i>
+                    </div><br>
+                <div class="titulo_razon">
+              <h4><b>Minimiza la proliferación del virus</b></h4> 
+                </div><br>
+                <div class="texto_razon">
+              <p>Se ha provado que la vacuna previene que alguien se infecte de Coronavirus</p> 
+            </div>  
+            </div>
+        </div>
+        <div class="card">
+            <div class="containera">
+                <div class="img_razon">
+                    <i class="fa fa-user-md" style="font-size:24px; color:blue"></i>
+                    </div><br>
+                <div class="titulo_razon">
+              <h4><b>Formacion de anticuerpos</b></h4> 
+                </div><br>
+                <div class="texto_razon">
+              <p>La vacuna de COVID-19 ayuda a formar anticuerpos que ayudan al sistema inmune</p> 
+            </div>  
+            </div>
+        </div>
+        <div class="card">
+            <div class="containera">
+                <div class="img_razon">
+                    <i class="fa fa-user-md" style="font-size:24px; color:blue"></i>
+                    </div><br>
+                <div class="titulo_razon">
+              <h4><b>Protege gente cercana</b></h4> 
+                </div><br>
+                <div class="texto_razon">
+              <p>Los beneficios de la vacuna contra el COVID-19 tambien protege a quien nos rodea</p> 
+            </div>  
+            </div>
+        </div>
+        <div class="card">
+            <div class="containera">
+                <div class="img_razon">
+                    <i class="fa fa-user-md" style="font-size:24px; color:blue"></i>
+                    </div><br>
+                <div class="titulo_razon">
+              <h4><b>Crea inmunidad de grupo</b></h4> 
+                </div><br>
+                <div class="texto_razon">
+              <p>La vacuna de COVID-19 es beneficiosa para crear inmunidad de grupo o inmunidad de rebaño</p> 
+            </div>  
+            </div>
+        </div>
+        <div class="preparacion">
+            <div class="preparacionmargen"></div>
+            <aside class="preparacionimagen">
+                    <img src="img/recomendaciones.png" alt="vaccine">
+            </aside>
+            <aside class="preparaciontexto">
+                <h3>Antes de vacunarte</h3>
+                <p>El exito de las vacunas se ven fuertemente influenciado por
+                    la fuerza del sistema inmune. Hay ciertas cosas que se pueden hacer antes de vacunarse </p>
+
+                <p class="tippreparacion"><i class="fa fa-heartbeat" style="font-size:36px;color:blue"></i>Evita bebidad alcoholicas<i class="fa fa-caret-square-o-down"  style="font-size:24px; color:blue; "></i></p>
+                <div class="despliege">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati libero asperiores nostrum maxime provident fugit eum excepturi perferendis sunt corrupti. Totam, corporis earum exercitationem non porro qui at nobis culpa!.</div>
+                <p class="tippreparacion"><i class="fa fa-heartbeat" style="font-size:36px;color:blue"></i>Evita el estres<i class="fa fa-caret-square-o-down" style="font-size:24px; color:blue;"></i></p>
+                <div class="despliege">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati libero asperiores nostrum maxime provident fugit eum excepturi perferendis sunt corrupti. Totam, corporis earum exercitationem non porro qui at nobis culpa!.</div>
+                <p class="tippreparacion"><i class="fa fa-heartbeat" style="font-size:36px;color:blue"></i>Consume comida saludable<i class="fa fa-caret-square-o-down" style="font-size:24px; color: blue;"></i></p>
+                <div class="despliege">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati libero asperiores nostrum maxime provident fugit eum excepturi perferendis sunt corrupti. Totam, corporis earum exercitationem non porro qui at nobis culpa!.</div>
+                <p class="tippreparacion"><i class="fa fa-heartbeat" style="font-size:36px;color:blue"></i>Duerme lo suficiente<i class="fa fa-caret-square-o-down" style="font-size:24px; color: blue;"></i></p>
+                <div class="despliege">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati libero asperiores nostrum maxime provident fugit eum excepturi perferendis sunt corrupti. Totam, corporis earum exercitationem non porro qui at nobis culpa!.</div>
+                <p class="tippreparacion"><i class="fa fa-heartbeat" style="font-size:36px;color:blue"></i>Ejercitate o realiza una actividad fisica <i class="fa fa-caret-square-o-down" style="font-size:24px; color:blue;"></i></p>
+                <div class="despliege">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati libero asperiores nostrum maxime provident fugit eum excepturi perferendis sunt corrupti. Totam, corporis earum exercitationem non porro qui at nobis culpa!.</div>
+            </aside>
+        </div>
+        <div class="contacto">
+            <aside class="contactoemergencia">
+                <h3>Contacto de emergencia</h3>
+                <p>Contact one of the contacts below if you or your family feel unwell 
+                and have similar symptomps such as COVID-19, make sure you also take 
+                care of yourself before reporting to us:</p>
+                <div class="cartacontacto">
+                    
+                    <div class="cardcontact">
+                        <div class="container">
+                        <div class="imagen_item">
+                            <i class="fa fa-mobile-phone" style="font-size:48px; color:blue;"></i>
+                        </div>
+                        <div class="accion">
+                          <h4>Llama</h4> 
+                        </div>
+                        <div class="datos">
+                          <p >56-58-11-11</p>
+                          </div> 
+                          <div class="botoncontacto">
+                            <button class="estiloboton">
+                                Llama ahora
+                            </button>
+                        </div>
+                        </div>
+                    </div> 
+
+                <div class="cardcontact">
+                    <div class="container">
+                    <div class="imagen_item">
+                        <i class="fa fa-users" style="font-size:48px;color:blue"></i>
+                    </div>
+                    <div class="accion">
+                      <h4>Chat</h4> 
+                    </div>
+                    <div class="datos">
+                      <p >2.22.36.36</p>
+                      </div> 
+                      <div class="botoncontacto">
+                        <button class="estiloboton">
+                            Chatea
+                        </button>
+                    </div>
+                    </div>
+                </div> 
+                <div class="cardcontact">
+                    <div class="container">
+                    <div class="imagen_item">
+                        <i class="fa fa-video-camera" style="font-size:48px;color:blue;"></i>
+                    </div>
+                    <div class="accion">
+                      <h4>Video Llamada</h4> 
+                    </div>
+                    <div class="datos">
+                      <p >021.123.145.14</p>
+                      </div> 
+                      <div class="botoncontacto">
+                        <button class="estiloboton">
+                            Video Llamada
+                        </button>
+                    </div>
+                    </div>
+                </div> 
+                <div class="cardcontact">
+                    <div class="container">
+                    <div class="imagen_item">
+                        <i class="fa fa-envelope-o" style="font-size:48px;color:blue"></i>
+                    </div>
+                    <div class="accion">
+                      <h4>Mensaje</h4> 
+                    </div>
+                    <div class="datos">
+                      <p >2.22.36.36</p>
+                      </div> 
+                      <div class="botoncontacto">
+                        <button class="estiloboton">
+                            Envia un mensaje ahora
+                        </button>
+                    </div>
+                    </div>
+                </div> 
+                </div> 
+            </aside>
+            <aside class="contactomargen">
+                    <img src="img/contactos.png" alt="contactoemergencia">
+            </aside>
+        </div>
+        <div class="footer">
+            <div class="derechos">
+                <h2>Vacunacion</h2>
+                <p>Nuestra meta es ayudar a que el mundo este libre
+                    de la pandemia actual.
+            </div>
+            <div class="acerca">
+                <h2>Acerca</h2>
+                <p>Acerca de nosotros</p>
+                <p>Caracteristicas</p>
+                <p>Noticias y Blog</p>
+            </div>
+            <div class="compania">
+                <h2>Compañia</h2>
+                <p>Como trabajamos</p>
+                <p>Capital</p>
+                <p>Seguridad</p>
+            </div>
+            <div class="soporte">
+                <h2>Soporte</h2>
+                <p>FAQS</p>
+                <p>Centro de soporte</p>
+                <p>Contactanos</p>
+            </div>
+            <div class="creditos">
+                <p>@2021 Vacunacion. Todos los derechos reservados</p>
+                <p>Terminos y condiciones</p>
+                <p>Politica de privacidad</p>
+            </div>
+        </div>
+
+</body>
+</html>
+<!--
+<a href="https://www.flaticon.com/free-icons/shield" title="shield icons"></a>Shield icons created by Vectors Market - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/star" title="star icons">Star icons created by Pixel perfect - Flaticon</a>
+-->
